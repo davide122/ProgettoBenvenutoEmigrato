@@ -69,17 +69,16 @@ filter: brightness(55%) !important;
 }
 
 .video-container .banner {
-max-width: 100%;
+max-width: 90%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10; 
 
-width: 700px;
-height: 300px;
-padding: 15px;
 text-align: center;
+
+
 
 
 color: rgb(255, 255, 255);
@@ -123,8 +122,7 @@ box-shadow: 10px 10px 20px 30px #478897(0, 0%, 7%, 0.568);
    
 }
 .video-container .banner{
-  width: 300px !important;
-  padding: 7px;
+  
   
 }
 
@@ -247,7 +245,7 @@ cursor: pointer;
 }
 
 .textyellow {
-  color: #EFBD5B;
+  color: #EFBD5B !important;
 }
  
  .card img {
@@ -259,7 +257,6 @@ cursor: pointer;
  }
  
 
- 
  
 
  .card .card-border-bottom {
@@ -444,4 +441,9 @@ cursor: pointer;
  .imgnew{
   width: 100% !important;
   height: 100% !important;
+ }
+
+ .Logo{
+  width: 50px !important;
+  height: 54px !important; 
  }
