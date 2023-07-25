@@ -186,7 +186,7 @@ height: 50px;
 .slider::after {
   right: 0;
   top: 0;
-  transform: rotateZ(10deg);
+  transform: rotateZ(180deg);
 }
 .slider::before {
   left: 0;
@@ -293,9 +293,10 @@ cursor: pointer;
   height: 100%;
 }
 .palloncino {
-  width: 200px;
-  height: 300px;
+  width: 100px;
+  height: 140px;
   position: absolute;
+  
   bottom: 240px;
   left: 50%; /* Centra il palloncino orizzontalmente */
   opacity: 1;
@@ -307,7 +308,7 @@ cursor: pointer;
       opacity: 1; 
   }
   50% {
-      transform: translateX(500px) translateY(-200px) rotate(-20deg);
+      transform: translateX(0) translateY(-200px) rotate(-20deg);
       opacity: 0;
       visibility: hidden;
   }
@@ -348,96 +349,7 @@ cursor: pointer;
   overflow:  hidden !important;
 }
 
-.cardpersonal {
-  width: 100%;
-  height:300px;
-  background: #78929248;
-  border-radius: 10px 10px 10px 10px;
-  padding: 2rem 1.5rem;
-  transition: box-shadow .3s ease, transform .2s ease;
- }
- 
- .card-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: transform .2s ease, opacity .2s ease;
- }
- 
- /*Image*/
- .card-avatar {
-  --size: 60px;
-  background: linear-gradient(to top, #f1e1c1 0%, #fcbc97 100%);
-  width: var(--size);
-  height: var(--size);
-  border-radius: 50%;
-  transition: transform .2s ease;
-  margin-bottom: 1rem;
- }
- 
- 
- /*Card footer*/
- .card-social {
-  transform: translateY(200%);
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  opacity: 0;
-  transition: transform .2s ease, opacity .2s ease;
- }
- 
- .card-social__item {
-  list-style: none;
- }
- 
- .card-social__item svg {
-  display: flex;
-  height: 18px;
-  width: 18px;
-  fill: #515F65;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: fill 0.2s ease ,transform 0.2s ease;
- }
- 
- /*Text*/
- .card-title {
-  color: #333;
-  font-size: 1.5em;
-  font-weight: 600;
-  line-height: 2rem;
- }
- 
- .card-subtitle {
-  color: #859ba8;
-  font-size: 0.8em;
- }
- 
- /*Hover*/
- .cardpersonal:hover {
-  box-shadow: 0 8px 50px #00ffff33;
- }
- 
- .cardpersonal:hover .card-info {
-  transform: translateY(-5%);
- }
- 
- .cardpersonal:hover .card-social {
-  transform: translateY(100%);
-  opacity: 1;
- }
- 
- .card-social__item svg:hover {
-  fill: #232323;
-  transform: scale(1.1);
- }
- 
- .card-avatar:hover {
-   transform: rotate(360deg) scale(1.6) ;
 
- }
  .imgnew{
   width: 100% !important;
   height: 100% !important;
@@ -446,4 +358,15 @@ cursor: pointer;
  .Logo{
   width: 50px !important;
   height: 54px !important; 
+ }
+ .cardcontainer{
+  width: 100%;
+  height: 420px;
+  background-color: #8b8a8898;
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden !important;
+  background-color: rgba(0, 0, 0, 0.747) !important;
+}
+.cardcontainer img{
+   object-fit:contained !important;
  }
