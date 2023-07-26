@@ -296,6 +296,7 @@ cursor: pointer;
   width: 100px;
   height: 140px;
   position: absolute;
+  z-index: 100000000000000000000000000;
   
   bottom: 240px;
   left: 50%; /* Centra il palloncino orizzontalmente */
