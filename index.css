@@ -33,7 +33,7 @@ position: relative;
 
 .Sizenav{
 width: 100%;
-
+box-shadow: 2px 3px 5px 2px #00000063;
 
 
 }
@@ -53,7 +53,7 @@ filter: brightness(55%) !important;
   position: relative;
   width: 100%;
   height: 60vh !important;
-  
+  box-shadow: 2px 3px 5px 2px #00000063;
   
 }
 
@@ -71,7 +71,7 @@ filter: brightness(55%) !important;
 .video-container .banner {
 max-width: 90%;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10; 
@@ -234,6 +234,7 @@ cursor: pointer;
   box-shadow: 1px 5px 60px 0px #3b3a5e6b;
  }
  
+
 .bluecolor{
   background:#0c4a74a1 ;
   border: none;
@@ -361,13 +362,30 @@ cursor: pointer;
   height: 54px !important; 
  }
  .cardcontainer{
-  width: 100%;
-  height: 420px;
+  width: 98%;
+  height:500px;
   background-color: #8b8a8898;
   border-radius: 20px 20px 20px 20px;
   overflow: hidden !important;
   background-color: rgba(0, 0, 0, 0.747) !important;
+  border: 4px solid #066d6498 !important;
+  box-shadow: 4px 2px 2px 2px #0becd657;
 }
 .cardcontainer img{
    object-fit:contained !important;
  }
+
+ .cardcontainer div {
+  background-color: #478897 !important;
+  
+}
+.testoabout{
+  font-weight: 800;
+  box-shadow: 2px 3px 5px 2px #295558;
+}
+
+
+.Ed{
+  box-shadow: 2px 3px 5px 2px #0303038a;
+
+}
